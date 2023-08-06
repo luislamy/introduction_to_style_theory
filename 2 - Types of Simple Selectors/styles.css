@@ -1,0 +1,41 @@
+/* Universal Selector */
+* {
+    color: blue;
+    text-align: center;
+}
+
+/* Element Selector */
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+/* Id Selector */
+#id4 {
+    color: blue;
+    text-align: center;
+}
+
+/* Class Selector */
+.class {
+    color: blue;
+    text-align: center;
+}
+
+/* Element with Class */
+h3.class {
+    color: blue;
+    text-align: center;
+}
+
+/* Id with Class */
+#id1.class {
+    color: blue;
+    text-align: center;
+}
+
+/* Grouping Selector */
+h1, p.container, #id4, .class1 {
+    color: blue;
+    text-align: center;
+}
