@@ -1,0 +1,81 @@
+body {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.t {
+    margin-top: 3rem;
+}
+
+.in,.cm,.mm,.px,.pt,.pc,.em,.ex,.ch,.rem,.vw,.vh,.vmin,.vmax,.per {
+    height: 80px;
+    padding-left: 1rem;
+}
+
+.in {
+    border-left: blue solid 1in;
+}
+
+.cm {
+    border-left: blue  solid 1cm;
+}
+
+.mm {
+    border-left: blue solid 1mm;
+}
+
+.px {
+    border-left: blue solid 1px;
+}
+
+.pt {
+    border-left: blue solid 1pt;
+}
+
+.pc {
+    border-left: blue solid 1pc;
+}
+
+.em {
+    border-left: blue solid 1em;
+}
+
+.ex {
+    border-left: blue solid 1ex;
+}
+
+.ch {
+    border-left: blue solid 1ch;
+}
+
+.rem {
+    border-left: blue solid 1rem;
+}
+
+.vw {
+    border-left: blue solid 1vw;
+}
+
+.vh {
+    border-left: blue solid 1vh;
+}
+
+.vmin {
+    border-left: blue solid 1vmin;
+}
+
+.vmax {
+    border-left: blue solid 1vmax;
+}
+
+div {
+    background: yellow;
+    width: 10vw;
+}
+
+.per {
+    /* "border: blue solid 1%;" doesn't work! Why?  */
+    padding: 0;
+    background: blue;
+    width: 50%;
+}
