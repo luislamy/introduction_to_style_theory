@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container > div {
+    background: #00ffff;
+    text-align: center;
+}
+
+.i1 {
+    height: 50px;
+    width: 50px;
+}
+.i2 {
+    height: 100px;
+    width: 50px;
+}
+.i3 {
+    height: 50px;
+    width: 100px;
+}
+.i4 {
+    height: 40px;
+    width: 80px;
+}
+.i5 {
+    height: 70px;
+    width: 60px;
+}
