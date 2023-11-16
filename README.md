@@ -14,8 +14,8 @@ A CSS and Tailwind CSS Introduction Workshop for In-Nova's Projects' Department,
 - Background
 - CSS Box Model
 - Text
-- Display
 - Position
+- Display
 - Z-Index
 - Overflow
 - Alignment
